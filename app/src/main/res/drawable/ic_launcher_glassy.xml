@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Same mark as cyber/hazy, rendered as a translucent lit panel: gradient fill,
+     thin highlight stroke, offset dark shadow, and a diagonal sheen clipped to the
+     mark's own silhouette to suggest a glass reflection. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:pathData="M24,0 L84,0 A24,24 0 0 1 108,24 L108,84 A24,24 0 0 1 84,108 L24,108 A24,24 0 0 1 0,84 L0,24 A24,24 0 0 1 24,0 Z"
+        android:fillColor="#0A1210" />
+
+    <group android:translateX="1.5" android:translateY="2.5">
+        <path android:pathData="M29,60 L41,60 A9,9 0 0 1 50,69 L50,81 A9,9 0 0 1 41,90 L29,90 A9,9 0 0 1 20,81 L20,69 A9,9 0 0 1 29,60 Z" android:fillColor="#000000" android:fillAlpha="0.35" />
+        <path android:pathData="M67,18 L79,18 A9,9 0 0 1 88,27 L88,39 A9,9 0 0 1 79,48 L67,48 A9,9 0 0 1 58,39 L58,27 A9,9 0 0 1 67,18 Z" android:fillColor="#000000" android:fillAlpha="0.35" />
+        <path android:pathData="M43,65 L65,43" android:strokeColor="#000000" android:strokeWidth="13" android:strokeLineCap="round" android:strokeAlpha="0.35" />
+    </group>
+
+    <path
+        android:pathData="M29,60 L41,60 A9,9 0 0 1 50,69 L50,81 A9,9 0 0 1 41,90 L29,90 A9,9 0 0 1 20,81 L20,69 A9,9 0 0 1 29,60 Z"
+        android:strokeColor="#BDFFF0"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.5">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="20" android:startY="60"
+                android:endX="50" android:endY="90"
+                android:startColor="#E67CFFD8"
+                android:endColor="#8000E5A0" />
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M67,18 L79,18 A9,9 0 0 1 88,27 L88,39 A9,9 0 0 1 79,48 L67,48 A9,9 0 0 1 58,39 L58,27 A9,9 0 0 1 67,18 Z"
+        android:strokeColor="#BDFFF0"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.5">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="58" android:startY="18"
+                android:endX="88" android:endY="48"
+                android:startColor="#E67CFFD8"
+                android:endColor="#8000E5A0" />
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M43,65 L65,43"
+        android:strokeWidth="13"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="43" android:startY="65"
+                android:endX="65" android:endY="43"
+                android:startColor="#E67CFFD8"
+                android:endColor="#8000E5A0" />
+        </aapt:attr>
+    </path>
+
+    <clip-path android:pathData="M29,60 L41,60 A9,9 0 0 1 50,69 L50,81 A9,9 0 0 1 41,90 L29,90 A9,9 0 0 1 20,81 L20,69 A9,9 0 0 1 29,60 Z M67,18 L79,18 A9,9 0 0 1 88,27 L88,39 A9,9 0 0 1 79,48 L67,48 A9,9 0 0 1 58,39 L58,27 A9,9 0 0 1 67,18 Z M39,68 L69,38 L69,48 L49,68 Z" />
+    <path android:pathData="M0,0 L108,0 L108,30 L30,108 L0,108 Z" android:fillColor="#FFFFFF" android:fillAlpha="0.22" />
+</vector>

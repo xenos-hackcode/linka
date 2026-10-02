@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Same mark as cyber/glassy, approximated as soft-glowing rather than crisp -
+     VectorDrawable has no blur filter, so the "haze" is three stacked copies of the
+     mark at increasing scale and decreasing alpha (outer to inner), topped with a
+     near-full copy that's still slightly translucent rather than fully opaque. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path android:pathData="M24,0 L84,0 A24,24 0 0 1 108,24 L108,84 A24,24 0 0 1 84,108 L24,108 A24,24 0 0 1 0,84 L0,24 A24,24 0 0 1 24,0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="38"
+                android:centerY="32"
+                android:gradientRadius="80"
+                android:startColor="#4A3878"
+                android:centerColor="#12161D"
+                android:endColor="#050505" />
+        </aapt:attr>
+    </path>
+
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="1.55" android:scaleY="1.55">
+        <path android:pathData="M29,60 L41,60 A9,9 0 0 1 50,69 L50,81 A9,9 0 0 1 41,90 L29,90 A9,9 0 0 1 20,81 L20,69 A9,9 0 0 1 29,60 Z" android:fillColor="#00E5A0" android:fillAlpha="0.10" />
+        <path android:pathData="M67,18 L79,18 A9,9 0 0 1 88,27 L88,39 A9,9 0 0 1 79,48 L67,48 A9,9 0 0 1 58,39 L58,27 A9,9 0 0 1 67,18 Z" android:fillColor="#00E5A0" android:fillAlpha="0.10" />
+        <path android:pathData="M43,65 L65,43" android:strokeColor="#00E5A0" android:strokeWidth="13" android:strokeLineCap="round" android:strokeAlpha="0.10" />
+    </group>
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="1.30" android:scaleY="1.30">
+        <path android:pathData="M29,60 L41,60 A9,9 0 0 1 50,69 L50,81 A9,9 0 0 1 41,90 L29,90 A9,9 0 0 1 20,81 L20,69 A9,9 0 0 1 29,60 Z" android:fillColor="#00E5A0" android:fillAlpha="0.18" />
+        <path android:pathData="M67,18 L79,18 A9,9 0 0 1 88,27 L88,39 A9,9 0 0 1 79,48 L67,48 A9,9 0 0 1 58,39 L58,27 A9,9 0 0 1 67,18 Z" android:fillColor="#00E5A0" android:fillAlpha="0.18" />
+        <path android:pathData="M43,65 L65,43" android:strokeColor="#00E5A0" android:strokeWidth="13" android:strokeLineCap="round" android:strokeAlpha="0.18" />
+    </group>
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="1.12" android:scaleY="1.12">
+        <path android:pathData="M29,60 L41,60 A9,9 0 0 1 50,69 L50,81 A9,9 0 0 1 41,90 L29,90 A9,9 0 0 1 20,81 L20,69 A9,9 0 0 1 29,60 Z" android:fillColor="#BDFFF0" android:fillAlpha="0.30" />
+        <path android:pathData="M67,18 L79,18 A9,9 0 0 1 88,27 L88,39 A9,9 0 0 1 79,48 L67,48 A9,9 0 0 1 58,39 L58,27 A9,9 0 0 1 67,18 Z" android:fillColor="#BDFFF0" android:fillAlpha="0.30" />
+        <path android:pathData="M43,65 L65,43" android:strokeColor="#BDFFF0" android:strokeWidth="13" android:strokeLineCap="round" android:strokeAlpha="0.30" />
+    </group>
+
+    <path android:pathData="M29,60 L41,60 A9,9 0 0 1 50,69 L50,81 A9,9 0 0 1 41,90 L29,90 A9,9 0 0 1 20,81 L20,69 A9,9 0 0 1 29,60 Z" android:fillColor="#BDFFF0" android:fillAlpha="0.88" />
+    <path android:pathData="M67,18 L79,18 A9,9 0 0 1 88,27 L88,39 A9,9 0 0 1 79,48 L67,48 A9,9 0 0 1 58,39 L58,27 A9,9 0 0 1 67,18 Z" android:fillColor="#BDFFF0" android:fillAlpha="0.88" />
+    <path android:pathData="M43,65 L65,43" android:strokeColor="#BDFFF0" android:strokeWidth="13" android:strokeLineCap="round" android:strokeAlpha="0.88" />
+</vector>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Default app icon style. Same mark as glassy/hazy (two paired nodes + a link,
+     reading as both "connection" and the L in Linka) - hard-edged and lit, matching
+     every existing in-app screen's look. Halo approximated with a scaled low-alpha
+     duplicate since VectorDrawable has no blur filter. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:pathData="M24,0 L84,0 A24,24 0 0 1 108,24 L108,84 A24,24 0 0 1 84,108 L24,108 A24,24 0 0 1 0,84 L0,24 A24,24 0 0 1 24,0 Z"
+        android:fillColor="#050505" />
+
+    <path android:pathData="M18,52 L6,52" android:strokeColor="#00E5A0" android:strokeWidth="1.4" android:strokeAlpha="0.55" />
+    <path android:pathData="M4,52 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0" android:fillColor="#00E5A0" android:fillAlpha="0.55" />
+    <path android:pathData="M90,30 L102,30" android:strokeColor="#00E5A0" android:strokeWidth="1.4" android:strokeAlpha="0.55" />
+    <path android:pathData="M104,30 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0" android:fillColor="#00E5A0" android:fillAlpha="0.55" />
+    <path android:pathData="M54,94 L54,104" android:strokeColor="#00E5A0" android:strokeWidth="1.4" android:strokeAlpha="0.55" />
+    <path android:pathData="M54,106 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0" android:fillColor="#00E5A0" android:fillAlpha="0.55" />
+
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="1.18" android:scaleY="1.18">
+        <path android:pathData="M29,60 L41,60 A9,9 0 0 1 50,69 L50,81 A9,9 0 0 1 41,90 L29,90 A9,9 0 0 1 20,81 L20,69 A9,9 0 0 1 29,60 Z" android:fillColor="#00E5A0" android:fillAlpha="0.28" />
+        <path android:pathData="M67,18 L79,18 A9,9 0 0 1 88,27 L88,39 A9,9 0 0 1 79,48 L67,48 A9,9 0 0 1 58,39 L58,27 A9,9 0 0 1 67,18 Z" android:fillColor="#00E5A0" android:fillAlpha="0.28" />
+        <path android:pathData="M43,65 L65,43" android:strokeColor="#00E5A0" android:strokeWidth="13" android:strokeLineCap="round" android:strokeAlpha="0.28" />
+    </group>
+
+    <path android:pathData="M29,60 L41,60 A9,9 0 0 1 50,69 L50,81 A9,9 0 0 1 41,90 L29,90 A9,9 0 0 1 20,81 L20,69 A9,9 0 0 1 29,60 Z" android:fillColor="#00E5A0" />
+    <path android:pathData="M67,18 L79,18 A9,9 0 0 1 88,27 L88,39 A9,9 0 0 1 79,48 L67,48 A9,9 0 0 1 58,39 L58,27 A9,9 0 0 1 67,18 Z" android:fillColor="#00E5A0" />
+    <path android:pathData="M43,65 L65,43" android:strokeColor="#00E5A0" android:strokeWidth="13" android:strokeLineCap="round" />
+</vector>

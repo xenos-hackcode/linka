@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linka Privacy Policy</title>
+<meta name="description" content="How Linka collects, uses, and protects your information.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f8f7;
+    --bg-raised: #ffffff;
+    --text: #101512;
+    --text-muted: #56625b;
+    --accent: #00a876;
+    --accent-soft: #e3f7ee;
+    --border: #dde5e0;
+    --mono-bg: #eef2f0;
+    --danger: #b3453a;
+    color-scheme: light dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0a0d0b;
+      --bg-raised: #121613;
+      --text: #eef2ef;
+      --text-muted: #8a978f;
+      --accent: #00e5a0;
+      --accent-soft: rgba(0, 229, 160, 0.12);
+      --border: #1c2620;
+      --mono-bg: #141915;
+      --danger: #e08277;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #0a0d0b;
+    --bg-raised: #121613;
+    --text: #eef2ef;
+    --text-muted: #8a978f;
+    --accent: #00e5a0;
+    --accent-soft: rgba(0, 229, 160, 0.12);
+    --border: #1c2620;
+    --mono-bg: #141915;
+    --danger: #e08277;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    padding: 0 20px;
+  }
+
+  .page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-block: 48px 80px;
+  }
+
+  h1, h2, h3 {
+    font-family: "Space Grotesk", "Inter", sans-serif;
+    font-weight: 600;
+    text-wrap: balance;
+    color: var(--text);
+  }
+
+  .mark {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+
+  .mark svg { flex-shrink: 0; }
+
+  .mark-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .mark-text .name {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+  }
+
+  .mark-text .doc {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  h1.title {
+    font-size: clamp(28px, 4.5vw, 38px);
+    line-height: 1.15;
+    margin: 0 0 10px;
+  }
+
+  .meta {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+    color: var(--text-muted);
+    margin: 0 0 36px;
+  }
+
+  .lede {
+    font-size: 17px;
+    color: var(--text-muted);
+    max-width: 62ch;
+    margin: 0 0 32px;
+  }
+
+  .glance {
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin-bottom: 44px;
+  }
+
+  .glance h2 {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 14px;
+  }
+
+  .glance ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 10px;
+  }
+
+  .glance li {
+    display: flex;
+    gap: 10px;
+    font-size: 14.5px;
+    color: var(--text);
+  }
+
+  .glance li::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    margin-top: 8px;
+    flex-shrink: 0;
+  }
+
+  section {
+    margin-bottom: 40px;
+    scroll-margin-top: 24px;
+  }
+
+  h2.section-title {
+    font-size: 21px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 0 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  h2.section-title .num {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin: 20px 0 8px;
+  }
+
+  p { margin: 0 0 14px; max-width: 66ch; }
+  p:last-child { margin-bottom: 0; }
+
+  ul.plain, ol.plain {
+    margin: 0 0 14px;
+    padding-left: 22px;
+    max-width: 64ch;
+  }
+  ul.plain li, ol.plain li { margin-bottom: 6px; }
+
+  strong { font-weight: 600; }
+
+  code {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.9em;
+    background: var(--mono-bg);
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 8px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 480px;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  thead th {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: var(--bg-raised);
+  }
+
+  tbody tr:last-child td { border-bottom: none; }
+
+  td.perm {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12.5px;
+    white-space: nowrap;
+    color: var(--accent);
+  }
+
+  .not-list {
+    background: var(--accent-soft);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 8px;
+  }
+
+  .not-list ul { margin: 0; padding-left: 20px; }
+  .not-list li { margin-bottom: 6px; }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    font-size: 13.5px;
+    color: var(--text-muted);
+  }
+
+  footer a { color: var(--accent); }
+
+  @media (max-width: 480px) {
+    .page { padding-block: 32px 56px; }
+    h1.title { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="mark">
+    <svg width="34" height="34" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M24,0 L84,0 A24,24 0 0 1 108,24 L108,84 A24,24 0 0 1 84,108 L24,108 A24,24 0 0 1 0,84 L0,24 A24,24 0 0 1 24,0 Z" fill="#050505"/>
+      <path d="M29,60 L41,60 A9,9 0 0 1 50,69 L50,81 A9,9 0 0 1 41,90 L29,90 A9,9 0 0 1 20,81 L20,69 A9,9 0 0 1 29,60 Z" fill="#00e5a0"/>
+      <path d="M67,18 L79,18 A9,9 0 0 1 88,27 L88,39 A9,9 0 0 1 79,48 L67,48 A9,9 0 0 1 58,39 L58,27 A9,9 0 0 1 67,18 Z" fill="#00e5a0"/>
+      <path d="M43,65 L65,43" stroke="#00e5a0" stroke-width="13" stroke-linecap="round"/>
+    </svg>
+    <div class="mark-text">
+      <span class="name">Linka</span>
+      <span class="doc">Legal</span>
+    </div>
+  </div>
+
+  <h1 class="title">Privacy Policy</h1>
+  <p class="meta">Effective &amp; last updated: 13 September 2026</p>
+
+  <p class="lede">Linka is a remote-support app: it lets one device (the <strong>controller</strong>) view and operate another device you own or have been given permission to access (the <strong>controllee</strong>), plus a small companion account for pairing, chat, and access requests. This page explains what that actually involves.</p>
+
+  <div class="glance">
+    <h2>At a glance</h2>
+    <ul>
+      <li>A linked session's screen content and input (taps, swipes, typing) are relayed live between your two devices. Linka does not record, store, or review them.</li>
+      <li>Your account holds a username, a hashed password, and whatever display name/bio you add — never your plaintext password.</li>
+      <li>Chat messages (direct, group, and global) are stored so they can be delivered and re-read, until you delete them.</li>
+      <li>Coarse location is used only to label which country a linked device is in, and stays on your own device.</li>
+      <li>No ads, no ad trackers, no selling your data, no third-party analytics SDKs.</li>
+    </ul>
+  </div>
+
+  <section id="collect">
+    <h2 class="section-title"><span class="num">01</span> Information we collect</h2>
+
+    <h3>Account information</h3>
+    <p>When you create a Linka account, we store a username, a securely hashed password (we never see or store your actual password), and any display name or bio you choose to add.</p>
+
+    <h3>Messages</h3>
+    <p>Direct messages, group messages, and posts to the global feed are stored on our server so they can be delivered to their recipients and remain visible until you or the recipient deletes them.</p>
+
+    <h3>Link requests</h3>
+    <p>When you ask to be linked to someone else's device (or receive such a request), we store who asked, a short summary and reason, and whether it was accepted or denied.</p>
+
+    <h3>Remote-session activity log</h3>
+    <p>Your device keeps a local, on-device log of your own session history — when a link started, whether you were the controller or controllee, and the outcome of requests you sent or received. This log stays on your device, is capped at 200 entries, and is never uploaded to our server.</p>
+
+    <h3>Approximate location</h3>
+    <p>With your permission, Linka reads a coarse (city/region-level, never exact) location to show which country a device you're linked with is in. This is used and stored locally on your device, not on our server.</p>
+
+    <h3>Installed app names</h3>
+    <p>To help match a request's description ("can you help with my banking app") against what's actually on your device, Linka reads the list of your installed apps' names on-device only. This list is never transmitted to our server or to the other person in a link.</p>
+  </section>
+
+  <section id="session">
+    <h2 class="section-title"><span class="num">02</span> What happens during a linked session</h2>
+    <p>This is the core of what Linka does, so it gets its own section rather than a bullet point. Once two devices are linked, the controllee's screen content and the controller's input (taps, swipes, and typed text) are relayed directly between those two devices for the live session only. <strong>We do not record, log, store, or have any employee or system review this content</strong> — it exists only for the duration of the active link, the same way a phone call's audio isn't recorded just because it passes through a network.</p>
+    <p>Either device can end the link at any time. The controllee's Accessibility Service permission (used to let the controller's taps/swipes/typing actually reach the controllee device) is only active while linked, and can be revoked at any time in your device's own Accessibility settings.</p>
+  </section>
+
+  <section id="use">
+    <h2 class="section-title"><span class="num">03</span> How we use this information</h2>
+    <ul class="plain">
+      <li>To create and secure your account, and let you sign in.</li>
+      <li>To establish and authorize a remote link between two consenting devices.</li>
+      <li>To deliver chat messages to the right person or group.</li>
+      <li>To show link requests to the person who needs to approve or deny them.</li>
+      <li>To keep the service reliable and secure — for example, detecting abuse of the link/request system.</li>
+    </ul>
+  </section>
+
+  <section id="not">
+    <h2 class="section-title"><span class="num">04</span> What we don't do</h2>
+    <div class="not-list">
+      <ul class="plain">
+        <li>We don't show ads or use ad-tracking SDKs.</li>
+        <li>We don't sell, rent, or trade your information to anyone.</li>
+        <li>We don't use third-party analytics or crash-reporting services that collect your data.</li>
+        <li>We don't record or store the content of a remote-control session.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="permissions">
+    <h2 class="section-title"><span class="num">05</span> Permissions Linka asks for</h2>
+    <p>Android requires apps to declare permissions up front. Here's exactly what each one is for:</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Permission</th><th>What it's for</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="perm">INTERNET</td><td>Connecting to Linka's server for accounts, chat, and pairing — and to the other device during a link.</td></tr>
+          <tr><td class="perm">CAMERA</td><td>Scanning a QR pairing code to link to another device.</td></tr>
+          <tr><td class="perm">ACCESS_COARSE_LOCATION</td><td>Showing which country a linked device is in. Never exact location, never stored on our server.</td></tr>
+          <tr><td class="perm">FOREGROUND_SERVICE / FOREGROUND_SERVICE_MEDIA_PROJECTION</td><td>Keeping an active remote session running reliably while the app is in the background, and screen-sharing your display to a linked controller.</td></tr>
+          <tr><td class="perm">POST_NOTIFICATIONS</td><td>Telling you about link requests and session status.</td></tr>
+          <tr><td class="perm">WAKE_LOCK / REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</td><td>Keeping an active link from being killed by the system mid-session.</td></tr>
+          <tr><td class="perm">Accessibility Service</td><td>Lets a linked controller's taps, swipes, and typing actually reach your screen. Only active while linked — off otherwise, and revocable any time in your device's Accessibility settings.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="retention">
+    <h2 class="section-title"><span class="num">06</span> Retention &amp; deletion</h2>
+    <p>You can delete individual messages, and request deletion of your account and the data tied to it (username, profile, messages you sent) by contacting us at the address below. Your on-device activity log can be cleared from within the app at any time and automatically trims itself to the most recent 200 entries.</p>
+  </section>
+
+  <section id="children">
+    <h2 class="section-title"><span class="num">07</span> Children's privacy</h2>
+    <p>Linka is not directed at children under 13, and we do not knowingly collect information from anyone under that age. If you believe a child has created an account, contact us and we'll remove it.</p>
+  </section>
+
+  <section id="security">
+    <h2 class="section-title"><span class="num">08</span> Security</h2>
+    <p>Passwords are stored hashed, never in plain text. A remote link only forms between two devices that both explicitly agree to it — a pairing code or an accepted request — and either side can end it instantly. No method of transmission or storage is 100% secure, but we work to protect your information using industry-standard practices.</p>
+  </section>
+
+  <section id="changes">
+    <h2 class="section-title"><span class="num">09</span> Changes to this policy</h2>
+    <p>If this policy changes, we'll update the date at the top of this page. Continued use of Linka after a change means you accept the updated policy.</p>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title"><span class="num">10</span> Contact</h2>
+    <p>Questions about this policy or your data? Reach us at <a href="mailto:hackerxenos06@gmail.com">hackerxenos06@gmail.com</a>.</p>
+  </section>
+
+  <footer>
+    Linka &middot; Remote device support &middot; This policy applies to the Linka Android app and its companion account service.
+  </footer>
+</div>
+
+</body>
+</html>

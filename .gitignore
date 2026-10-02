@@ -1,0 +1,37 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+**/build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.gradle/
+**/.gradle/
+
+# Env files anywhere in the repo — never commit
+.env
+*.env
+**/.env
+
+# Signing keys — never commit
+*.jks
+*.keystore
+
+# Local editor/tool config — not shared project config
+.claude/
+.vscode/
+.kotlin/
+
+# Laptop agent build output (PyInstaller)
+laptop_agent/build/
+laptop_agent/dist/
+laptop_agent/__pycache__/
